@@ -4,7 +4,7 @@ RUN mkdir -p /home/node/api/node_modules && chown -R node:node /home
 
 WORKDIR /home/node/api
 
-COPY package.json yarn.* ./
+COPY package*.json yarn.* ./
 
 USER node
 
