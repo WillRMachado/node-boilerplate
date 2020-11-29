@@ -1,0 +1,11 @@
+module.exports = `
+
+type Query {
+  quoteOfTheDay(par: String): String
+  hello: String
+  list: [User!]!
+  user(id: ID!): User
+  getMessage: String
+}
+
+`
